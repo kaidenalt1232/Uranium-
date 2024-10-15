@@ -100,9 +100,16 @@ local GamesButton = GamesTab:CreateButton({
 
 
 local GamesButton = GamesTab:CreateButton({
-   Name = "BladeBall",
+   Name = "BladeBall auto parry",
    Callback = function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-op-autoparry-with-visualizer-8652"))()
+   end,
+})
+
+local GamesButton = GamesTab:CreateButton({
+   Name = "Blade ball gui not keyless",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
    end,
 })
 
